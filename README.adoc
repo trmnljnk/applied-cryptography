@@ -12,7 +12,7 @@
 
 
 
-## Asymetric encryption
+## Asymmetric encryption
 
 RSA (Rivest Shamir Adleman 1977)
 
