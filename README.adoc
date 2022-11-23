@@ -1,6 +1,7 @@
 # Applied Cryptography
 
-Hashing
+## Hashing
+
 * Long plain text to deterministic short bytes
   ** SHA256: result is a 256-bit (32byte number), MD5, SHA3-xxx
 * Porperties
