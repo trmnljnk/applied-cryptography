@@ -1,5 +1,14 @@
 # Applied Cryptography
 
+Hashing
+* Long plain text to deterministic short bytes
+** SHA256: result is a 256-bit (32byte number), MD5, SHA3-xxx
+* Porperties
+** Only based on the input
+** Use all  the input
+** Uniform distribution
+** Distinctive (almost same data different results)
+** Short (fixed) digest
 
 
 
