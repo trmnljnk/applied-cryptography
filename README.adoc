@@ -101,7 +101,7 @@ print(digestHex == hashHex, digestHex)
 
 
 
-## Symmetric encryption
+## Symmetric Encryption
 * One key for encryption and decryption
 * Small block algorithm
 * Chaining mode to encrypt/ decrypt lager blocks
