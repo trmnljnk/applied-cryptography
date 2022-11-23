@@ -41,10 +41,20 @@ from cryptography.hazmat.primitives import hashes
 digest = hashes.Hash(hashes.SHA256())
 digest.update(text)               # Bytes
 digestBytes = digest.finalize()   # Bytes
-
 ----
 
+### Example openssl
 
+[,console]
+----
+#!/bin/bash
+
+text="Short text for demonstration purposes."
+hashHex=""
+
+
+
+----
 
 
 
