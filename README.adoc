@@ -50,9 +50,15 @@ digestBytes = digest.finalize()   # Bytes
 #!/bin/bash
 
 text="Short text for demonstration purposes."
-hashHex=""
+hashHex="953e457f640f114c10edeffe676e582e4f67df27d217422949887f4869e32de8"
 
-
+digestHex=`echo "${text}\c" | openssl sha256 | sed -e 's/^.*= *//'`
+if [ "${hashHex}" = "${digestHex}" ];
+then
+    echo "True", "${digestHex}"
+else
+    echo "False", "${digestHex}"
+fi
 
 ----
 
