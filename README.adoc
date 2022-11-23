@@ -11,6 +11,10 @@
   ** Distinctive (almost same data different results)
   ** Short (fixed) digest
 
+### Application
+* Message integrity
+* Digital signature
+* Password verification
 
 
 
