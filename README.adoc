@@ -4,7 +4,7 @@
 
 
 
-## Symetric encryption
+## Symmetric encryption
 * One key for encryption and decryption
 * Small block algorithm
 * Chaining mode to encrypt/ decrypt lager blocks
@@ -21,3 +21,4 @@ RSA (Rivest Shamir Adleman 1977)
 * RSA-2048 (means a 2048-bit (256 bytes) can be encrypted)
 * Used for signing and key-exchange
 * Based on Group Theory (x^Y^ mod n)
+
