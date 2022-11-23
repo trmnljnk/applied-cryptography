@@ -62,9 +62,24 @@ fi
 
 ----
 
+### Example Python
+[,python]
+----
+#!/usr/bin/env python3
+# (c) Applied Cryptography 2021b2 f.h.schippers@hva.nl (2020)
 
+from cryptography.hazmat.primitives import hashes
 
+text = b"Short text to demonstrate how hashing works."
+hashHex = "953e457f640f114c10edeffe676e582e4f67df27d217422949887f4869e32de8"
 
+digest = hashes.Hash(hashes.SHA256())
+digest.update(text)             # Bytes
+digestBytes = digest.finalize() # Bytes
+digestHex = digestBytes.hex()
+
+print(digestHex == hashHex, digestHex)
+----
 
 
 
