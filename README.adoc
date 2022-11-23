@@ -26,6 +26,30 @@
 ### Hash collisions
 * Two different text have the same hash-value
 
+[,console]
+----
+openssl sha512 <fname>
+----
+
+[,python]
+----
+from cryptography.hazmat.primitives import hashes
+
+digest = hashes.Hash(hashes.SHA256())
+digest.update(text)               # Bytes
+digestBytes = digest.finalize()   # Bytes
+
+----
+
+
+
+
+
+
+
+
+
+
 * Secure Hash Algorithm
   ** NSA SHA0-2 / Guido Bertoni ea. SHA 3
   ** SHA 0 / SHA 1
