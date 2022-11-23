@@ -26,6 +26,9 @@
 ### Hash collisions
 * Two different text have the same hash-value
 
+
+### Usage / Implementation
+
 [,console]
 ----
 openssl sha512 <fname>
