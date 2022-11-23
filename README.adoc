@@ -81,6 +81,13 @@ digestHex = digestBytes.hex()
 print(digestHex == hashHex, digestHex)
 ----
 
+### summarizing
+* Long plain text to deterministic short bytes
+* MD5, SHA 2, SHA 3
+* Use: openssl and python3 and others
+* Application: Message integrity, Digital Signature
+
+
 
 
 
