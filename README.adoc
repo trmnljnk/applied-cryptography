@@ -23,6 +23,9 @@
   ** Ronald Rivest publist: 1989-2008
   ** MD2 / MD3 / MD4 / MD5 / MD6
 
+### Hash collisions
+* Two different text have the same hash-value
+
 * Secure Hash Algorithm
   ** NSA SHA0-2 / Guido Bertoni ea. SHA 3
   ** SHA 0 / SHA 1
