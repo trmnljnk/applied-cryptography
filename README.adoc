@@ -18,6 +18,19 @@
 * Proof of work
 * Data identifier
 
+### Variants
+* Message Digest Algorithm
+  ** Ronald Rivest publist: 1989-2008
+  ** MD2 / MD3 / MD4 / MD5 / MD6
+
+* Secure Hash Algorithm
+  ** NSA SHA0-2 / Guido Bertoni ea. SHA 3
+  ** SHA 0 / SHA 1
+  ** SHA 2 (NIST (National Institute of Standards and Technology) / FIPS US patent (royalty-free) publication:2001
+     *** SHA-224, SHA-256, SHA-384, SHA-512, SHA-512/224, SHA-512/256
+  ** SHA 3 (NIST 2015) publication: 2008
+     *** SHA3-224, SHA3-256, SHA-384, SHA-512
+
 
 
 ## Symmetric encryption
