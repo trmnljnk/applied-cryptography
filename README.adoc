@@ -20,4 +20,4 @@ RSA (Rivest Shamir Adleman 1977)
 * Practical difficulty of factoring product of large primes
 * RSA-2048 (means a 2048-bit (256 bytes) can be encrypted)
 * Used for signing and key-exchange
-* Based on Group Theory (xY mod n)
+* Based on Group Theory (x^Y^ mod n)
