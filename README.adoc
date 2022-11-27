@@ -1,5 +1,9 @@
 # Applied Cryptography
 
+https://gchq.github.io/CyberChef/
+
+
+
 ## Hashing
 
 * Long plain text to deterministic short bytes
