@@ -2,7 +2,7 @@
 
 https://gchq.github.io/CyberChef/
 
-
+https://github.com/pieterjm/AppliedCryptography
 
 ## Hashing
 
